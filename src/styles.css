@@ -1,4 +1,5 @@
 *{
+<<<<<<< HEAD
     padding: 0;
 }
 header{
@@ -35,3 +36,32 @@ nav ul li a:hover{
     color:pink;
     text-decoration: none;
 }
+=======
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+ div{
+ min-height: 100vh;
+ color: yellowgreen;
+ font-size: 60px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+
+
+}
+
+.banner{
+ /* background: url(./image/banner\ image.jpg); */
+
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./image/banner\ image.jpg");
+background-repeat: no-repeat;
+background-size :cover;
+background-position: center;
+background-attachment: fixed;
+
+}
+>>>>>>> cf602626fbf935c234b45bf9cc6f0d381a1b9fa0
