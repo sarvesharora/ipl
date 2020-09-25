@@ -1,8 +1,42 @@
-*{
- padding: 0;
+*{padding: 0;
  margin: 0;
  box-sizing: border-box;
 }
+header{
+    clear: both;
+    height: 60px;
+    background-color:black;
+}
+nav{
+    padding-top: 12px;
+    float: right;
+    padding-right: 100px;
+}
+.ipllogo{
+    height: 60px;
+    padding-right: 30px;
+    float: left;
+}
+nav li {
+    list-style: none;
+    display: inline;
+}
+nav ul li{
+    padding-right: 30px;
+    justify-content: space-between;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    color:pink;
+    text-decoration: none;
+}
+ 
 
  div{
  min-height: 100vh;
@@ -26,7 +60,10 @@ background-position: center;
 background-attachment: fixed;
 
 }
+<<<<<<< HEAD
 
 .heading{
  font-size: 80px;
 }
+=======
+>>>>>>> 1882b66a75983f2c1e505f2c142b50a39ef07107
