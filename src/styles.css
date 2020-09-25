@@ -1,5 +1,4 @@
 *{
-<<<<<<< HEAD
     padding: 0;
 }
 header{
@@ -36,7 +35,6 @@ nav ul li a:hover{
     color:pink;
     text-decoration: none;
 }
-=======
  padding: 0;
  margin: 0;
  box-sizing: border-box;
@@ -64,4 +62,3 @@ background-position: center;
 background-attachment: fixed;
 
 }
->>>>>>> cf602626fbf935c234b45bf9cc6f0d381a1b9fa0
