@@ -7,7 +7,7 @@
  div{
  min-height: 100vh;
  color: yellowgreen;
- font-size: 60px;
+ font-size: 80px;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .banner{
- /* background: url(./image/banner\ image.jpg); */
+ 
 
 background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./images/banner\ image.jpg");
 background-repeat: no-repeat;
@@ -25,4 +25,8 @@ background-size :cover;
 background-position: center;
 background-attachment: fixed;
 
+}
+
+.heading{
+ font-size: 80px;
 }
