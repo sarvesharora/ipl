@@ -1,6 +1,7 @@
 *{padding: 0;
  margin: 0;
  box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
 }
 header{
     clear: both;
@@ -42,7 +43,7 @@ nav ul li a:hover{
 }
  
 
- div{
+ .banner{
  min-height: 100vh;
  color: yellowgreen;
  font-size: 80px;
@@ -66,4 +67,62 @@ background-attachment: fixed;
 }
 .heading{
  font-size: 100px;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 80%;
+
+    border: none;
+    border-radius: 60px;
+    height: 56px;
+    color: #222;
+    font-size: 32px;
+    font-weight: bold;
+
+    transition: all .2s;
+}
+
+.csk {
+    background: linear-gradient(104.38deg, #E6EA2F 51.82%, #666815 98.36%);
+}
+
+.srh {
+    background: linear-gradient(97.48deg, rgba(249, 94, 7, 1) 56.99%, rgba(30, 28, 26, 1) 120.84%);
+}
+
+.dc {
+    background: linear-gradient(106.75deg, #60A3F9 70.88%, #1079FF 89.87%);
+}
+
+.kkr {
+    background: linear-gradient(100.45deg, #CAB855 18.93%, #62369D 48.75%);
+}
+
+.rr {
+    background: linear-gradient(104.51deg, rgba(255, 123, 168, 0.85) 46.73%, #505EE3 92.77%);
+}
+
+.mi {
+    background: linear-gradient(104.51deg, #276FB3 54.51%, #2B88E0 92.77%);
+}
+
+.rcb {
+    background: linear-gradient(104.38deg, #EB202C 63.1%, #33331E 91.71%);
+}
+
+.kxip {
+    background: linear-gradient(104.51deg, #EF1818 11.5%, #CF8E8E 89.95%);
 }
