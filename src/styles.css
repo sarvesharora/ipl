@@ -9,6 +9,12 @@
     background-color: black !important;
 }
 
+.navbar {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 1;
+}
+
 .banner {
     min-height: 100vh;
     color: yellowgreen;
@@ -29,6 +35,8 @@
 
 .heading {
     font-size: 100px;
+    font-weight: 600;
+    color: white;
 }
 
 .card {
