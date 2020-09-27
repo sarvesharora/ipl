@@ -2,114 +2,149 @@
 <html>
 
 <head>
-	<title>IPL2020</title>
-	<link rel="stylesheet" type="text/css" href="./styles.css">
-	<!-- Google Font -->
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
-	<!-- Bootstrap CDN -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>IPL2020</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
-	<header>
 
-		<img class="ipllogo"
-			src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2015/10/10/384064-ipl.jpg" alt="logo">
-		<nav>
-			<ul>
-				<li></li>
-				<li><a href="#">lorem</a></li>
-				<li><a href="#">lorem</a></li>
-				<li><a href="#">lorem</a></li>
-				<li><a href="#">lorem</a></li>
-				<li><a href="#">lorem</a></li>
-			</ul>
-		</nav>
-	</header>
-
-
-	<div class="banner">
-		<h1 class="heading">Know Your IPL</h1>
-		<!-- <img class="img" src="./image/banner image.jpg" alt="Ipl 2020">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark blacker">
+        <a class="navbar-brand" href="#">
+            <img src="./images/ipllogo.jpg" width="30" height="40" alt="" loading="lazy">
+        </a>
+        <a class="navbar-brand board font-weight-bolder big" href="#">IPL</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">VIDEOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MATCHES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">POINTS TABLE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">STATS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FANTASY</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NEWS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">MORE</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						TEAMS
+					</a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">CSK</a>
+                        <a class="dropdown-item" href="#">RCB</a>
+                        <a class="dropdown-item" href="#">SRH</a>
+                        <a class="dropdown-item" href="#">KKR</a>
+                        <a class="dropdown-item" href="#">RR</a>
+                        <a class="dropdown-item" href="#">DC</a>
+                        <a class="dropdown-item" href="#">K XI P</a>
+                        <a class="dropdown-item" href="#">MI</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">your team</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="banner">
+        <h1 class="heading">Know Your IPL</h1>
+        <!-- <img class="img" src="./image/banner image.jpg" alt="Ipl 2020">
 
   <img class="img" src="./image/banner image.jpg" alt="Ipl 2020"> -->
 
 
-	</div>
+    </div>
 
-	<!-- Cards -->
+    <!-- Cards -->
 
-	<div class="container-fluid">
-		<div class="row m-4">
-			<div class="col-md-6 col-lg-3">
-				<div class="card" style="background-image: url(../assets/images/dhoni2.jpg);">
-					<button class="team-btn csk">CSK</button>
-				</div>
-			</div>
+    <div class="container-fluid">
+        <div class="row m-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card" style="background-image: url(../assets/images/dhoni2.jpg);">
+                    <button class="team-btn csk">CSK</button>
+                </div>
+            </div>
 
-			<div class="col-md-6 col-lg-3">
-				<div class="card" style="background-image: url(../assets/images/David\ warner.jpg);">
-					<button class="team-btn srh">SRH</button>
-				</div>
-			</div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card" style="background-image: url(../assets/images/David\ warner.jpg);">
+                    <button class="team-btn srh">SRH</button>
+                </div>
+            </div>
 
-			<div class="col-md-6 col-lg-3">
-				<div class="card" style="background-image: url(../assets/images/DK.jpg);">
-					<button class="team-btn kkr">KKR</button>
-				</div>
-			</div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card" style="background-image: url(../assets/images/DK.jpg);">
+                    <button class="team-btn kkr">KKR</button>
+                </div>
+            </div>
 
-			<div class="col-md-6 col-lg-3">
-				<div class="card" style="background-image: url(../assets/images/kl.jpg);">
-					<button class="team-btn kxip">KXIP</button>
-				</div>
-			</div>
-		</div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card" style="background-image: url(../assets/images/kl.jpg);">
+                    <button class="team-btn kxip">KXIP</button>
+                </div>
+            </div>
+        </div>
 
-		<div class="row m-4">
-			<div class="col-md-6 col-lg-3">
-				<div class="card" style="background-image: url(../assets/images/Rohit\ Sharma.jpg);">
-					<button class="team-btn mi">MI</button>
-				</div>
-			</div>
+        <div class="row m-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card" style="background-image: url(../assets/images/Rohit\ Sharma.jpg);">
+                    <button class="team-btn mi">MI</button>
+                </div>
+            </div>
 
-			<div class="col-md-6 col-lg-3">
-				<div class="card" style="background-image: url(../assets/images/Shreyas\ iyyer.jpg);">
-					<button class="team-btn dc">DC</button>
-				</div>
-			</div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card" style="background-image: url(../assets/images/Shreyas\ iyyer.jpg);">
+                    <button class="team-btn dc">DC</button>
+                </div>
+            </div>
 
-			<div class="col-md-6 col-lg-3">
-				<div class="card" style="background-image: url(../assets/images/Steve\ smith.jpg);">
-					<button class="team-btn rr">RR</button>
-				</div>
-			</div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card" style="background-image: url(../assets/images/Steve\ smith.jpg);">
+                    <button class="team-btn rr">RR</button>
+                </div>
+            </div>
 
-			<div class="col-md-6 col-lg-3">
-				<div class="card" style="background-image: url(../assets/images/virat.jpg);">
-					<button class="team-btn rcb">RCB</button>
-				</div>
-			</div>
-		</div>
-	</div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card" style="background-image: url(../assets/images/virat.jpg);">
+                    <button class="team-btn rcb">RCB</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-	<!-- Cards end -->
-
-
+    <!-- Cards end -->
 
 
-	<!-- Jquery -->
 
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-		crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 </body>
 

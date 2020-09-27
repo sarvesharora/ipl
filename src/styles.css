@@ -1,73 +1,34 @@
-*{padding: 0;
- margin: 0;
- box-sizing: border-box;
- font-family: 'Montserrat', sans-serif;
-}
-header{
-    clear: both;
-    height: 60px;
-    width: 100vw;
-    position: fixed;
-}
-nav{
-    background-color:black;
-    opacity:0.5;
-    width:92.3%;
-    padding-top: 12px;
-    float: right;
-    padding-right: 100px;
-}
-.ipllogo{
-    height: 60px;
-    padding-right: 0px;
-    float: left;
-    width:7.7%;
-}
-nav li {
-    list-style: none;
-    display: inline;
-}
-nav ul li{
-    padding-right: 30px;
-    justify-content: space-between;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: sans-serif;
-    text-transform: uppercase;
-}
-nav ul li a:hover{
-    color:pink;
-    text-decoration: none;
-}
- 
-
- .banner{
- min-height: 100vh;
- color: yellowgreen;
- font-size: 80px;
- display: flex;
- justify-content: center;
- align-items: center;
- text-align: center;
-
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.banner{
- 
-
-background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./images/banner\ image.jpg");
-background-repeat: no-repeat;
-background-size :cover;
-background-position: center;
-background-attachment: fixed;
-
+.black {
+    background-color: black !important;
 }
-.heading{
- font-size: 100px;
+
+.banner {
+    min-height: 100vh;
+    color: yellowgreen;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/banner\ image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.heading {
+    font-size: 100px;
 }
 
 .card {
@@ -85,14 +46,12 @@ background-attachment: fixed;
     left: 50%;
     transform: translate(-50%);
     width: 80%;
-
     border: none;
     border-radius: 60px;
     height: 56px;
     color: #222;
     font-size: 32px;
     font-weight: bold;
-
     transition: all .2s;
 }
 
