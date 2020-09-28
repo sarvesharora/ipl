@@ -15,29 +15,38 @@
     z-index: 1;
 }
 
-.banner {
-    min-height: 100vh;
-    color: yellowgreen;
-    font-size: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
+/* banner starts */
+header{
+ height: 100vh;
+ background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(./images/bimage3.jpg);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+
 }
 
-.banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/banner\ image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+.banner-center{
+ height: 100vh;
+ color: whitesmoke;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+ padding: 75px;
 }
 
-.heading {
-    font-size: 100px;
-    font-weight: 600;
-    color: white;
+.banner-center h1{
+ font-size: 5rem;
 }
+
+.banner-center p{
+font-size: 2rem;
+}
+
+
+/* banner end */
+
 
 .card {
     position: relative;
@@ -94,3 +103,19 @@
 .kxip {
     background: linear-gradient(104.51deg, #EF1818 11.5%, #CF8E8E 89.95%);
 }
+
+
+
+
+/* media query */
+/* @media (min-width: 480px) {
+    #backgr { height: 200px !important; } 
+}
+
+@media (min-width: 768px) {
+    #backgr { height: 150px !important; }
+}
+
+@media (min-width: 992px) {
+    #backgr { height: 100px !important; }
+} */
