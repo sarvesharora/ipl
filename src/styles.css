@@ -94,3 +94,21 @@
 .kxip {
     background: linear-gradient(104.51deg, #EF1818 11.5%, #CF8E8E 89.95%);
 }
+/*table css*/
+table thead{
+    color: yellow !important;
+    font-size: 12px !important;
+}
+table .colorhead,.color2{
+    background-color: #040e27 !important;
+}
+table .color1{
+    background-color: #0e2459 !important;
+}
+table .green{
+    color: chartreuse;
+}
+table .red{
+    color: red;
+}
+/*table css end*/
