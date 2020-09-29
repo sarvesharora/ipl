@@ -118,6 +118,9 @@ table thead{
     font-size: 15px !important;
     font-weight: bolder;
 }
+.table td{
+    text-align: left;
+}
 table .colorhead,.color2{
     background-color: #040e27 !important;
 }
