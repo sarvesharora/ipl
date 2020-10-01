@@ -162,6 +162,24 @@ font-size: 2rem;
     transform: rotateY(180deg);
     border-radius: 2%;
     border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card-back h3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-back h4 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.card-back p {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .card-front img {
@@ -230,14 +248,19 @@ font-size: 2rem;
 
 
 /* table title */
-.title-underline{
+/* .title-underline{
  width: 20rem;
  border: 3px solid #F15025;
  margin: 0px auto 10px auto;
  background-color: #F15025;
-}
+} */
 /* table title */
 /*table css*/
+
+#points-table {
+    background: #040E27;
+}
+
 table{
     overflow-x: scroll;
 }
