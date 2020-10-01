@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 8px;
+} 
+::-webkit-scrollbar-track {
+    background: #000000;
+} 
+::-webkit-scrollbar-thumb {
+    background: #333;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #222;
+}
+body{
+    background-color: black !important;
+}
+.black {
+    background-color: black !important;
+}
+
+.navbar {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 1;
+    font-weight: 600;
+}
+
+
+.navbar a {
+    transition: all .2s;
+}
+.befaltu{
+    height: 65px;
+}
+.fonter{
+    font-family: 'Source Sans Pro','sans-serif'; 
+    font-weight:bolder;
+    font-style: italic;
+    font-size: 36px;
+}
+.chieght{
+    height: 85vh;
+}
+.latest{
+    border:blanchedalmond solid;
+    display: flex;
+    overflow-x: scroll;
+    height: 340px;
+}
+.latest iframe{
+    margin: 20px;
+    width: 700px !important;
+}
