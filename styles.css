@@ -62,7 +62,7 @@ header{
  display: flex;
  flex-direction: column;
  justify-content: flex-end;
- padding: 75px;
+ padding: 100px;
 }
 
 .banner-center h1{
@@ -285,4 +285,88 @@ table .red{
     color: red;
 }
 /*table css end*/
+
+
+
+/* Responsive navbar */
+@media (max-width: 992px) {
+
+    nav img {
+        height: 80px;
+        width: 60px;
+        margin: 32px 16px;
+    }
+
+    .navbar-brand {
+        font-size: 60px !important;
+    }
+
+    .navbar-toggler-icon {
+        transform: scale(2.4);
+        margin-right: 40px;
+    }
+
+    nav a {
+        font-size: 42px;
+    }
+
+    nav li {
+        margin: 12px 20px;
+    }
+
+    /* banner */
+    .banner-center {
+        padding: 500px 40px;
+    }
+
+    .banner-center h1 {
+        font-size: 120px;
+    }
+
+    .banner-center p {
+        font-size: 56px;
+        padding: 20px 40px;
+    }
+
+    /* team-cards */
+
+    .team-cards-heading {
+        font-size: 80px;
+        padding-top: 40px;
+        margin: 0 40px;
+    }
+
+    .main-container {
+        height: 700px;
+        width: 560px;
+    }
+
+    .card-front img {
+        height: 400px;
+        width: 380px;
+    }
+
+    .card-back h3 {
+        font-size: 56px;
+        padding: 30px !important;
+    }
+
+    .card-back h4 {
+        font-size: 48px;
+    }
+
+    .card-back p {
+        font-size: 32px;
+    }
+
+    /* Points table */
+
+    #points-table table thead {
+        font-size: 48px !important;
+    }
+
+    #points-table table tbody {
+        font-size: 36px !important;
+    }
+}
 
