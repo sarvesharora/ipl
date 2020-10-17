@@ -46,7 +46,7 @@ iframe{
     display: inline-block;
     border: blanchedalmond 1px solid;
 }
-.third{
+.third div{
     justify-content: center;
     margin-left: 100px;
 }
@@ -80,3 +80,18 @@ iframe{
 }
 .kxip {
     background: linear-gradient(152.25deg, #FF000D -1.84%, #FF3131 33.89%, rgba(255, 78, 78, 1) 97.19%);}
+.card img{
+    height: 250px;
+    width:250px;
+    background:linear-gradient(151.23deg, #110040 0.69%, #8908EE 116.28%);
+}
+.card img:hover{
+    background:linear-gradient(151.23deg,  #8908EE 0.69%,  #110040 116.28%);
+}
+.fourth{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ghumne{
+    overflow-x:scroll;
+}
